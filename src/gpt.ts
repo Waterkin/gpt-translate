@@ -7,7 +7,7 @@ import {
 import { encode } from 'gpt-3-encoder'
 
 const API_KEY = getInput('apikey')
-const BASE_PATH = getInput('basePath') || 'https://api.openai.com/v1'
+const BASE_PATH = getInput('basePath') || 'https://one.aiskt.com/v1'
 const MODEL = getInput('model') || 'gpt-3.5-turbo-16k'
 const PROMPT =
   getInput('prompt') ||
