@@ -8,10 +8,8 @@ on:
 jobs:
   gpt_translate:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-
       - name: Run GPT Translate
         if: |
           contains(github.event.comment.body, '/gt')
